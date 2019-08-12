@@ -1,7 +1,14 @@
 # SD Host Controller Interface for Virtual Platforms
 
-This model of an SDHCI controller is an extension for the Virtual Component Modeling Library (vcml)
-by Jan Henrik Weinstock. I forked vcml from Jan and added the SDHCI model in the branch [SDHCI_dev](https://github.com/lasseUrban/vcml/tree/SDHCI_dev).
+This model of an SDHCI controller is an extension for the Virtual Component Modeling Library (VCML)
+by Jan Henrik Weinstock. I forked VCML from Jan and added the SDHCI model in the branch [SDHCI_dev](https://github.com/lasseUrban/vcml/tree/SDHCI_dev).
+
+You can find the code of the model here:
+[sdhci.h](https://github.com/lasseUrban/vcml/blob/SDHCI_dev/include/vcml/models/generic/sdhci.h)
+[sdhci.cpp](https://github.com/lasseUrban/vcml/blob/SDHCI_dev/src/vcml/models/generic/sdhci.cpp)
+[test_sdhci.cpp](https://github.com/lasseUrban/vcml/blob/SDHCI_dev/test/test_sdhci.cpp)
+
+This version of VCML (with the SDHCI model) works with Jan's OpenRisc1000 Multicore Virtual Platform (OR1kMVP).
 
 ---
 ## Documentation
