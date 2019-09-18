@@ -14,7 +14,7 @@ This version of VCML (with the SDHCI model) works with Jan's OpenRisc1000 Multic
 ## Documentation
 The SDHCI model can execute normal Peripheral Input/Output (PIO) and DMA data transactions. DMA is used by default because it is much faster than PIO. To disable DMA transactions you can use `-c system.sdhci.DMA_enabled=0`.
 
-For more technical implementation details see [sdhci.md](https://github.com/lasseUrban/vcml/blob/SDHCI_dev/doc/models/sdhci.md) or write me an email to get insight to my bachelor thesis.
+For more technical implementation details see [sdhci.md](https://github.com/lasseUrban/vcml/blob/SDHCI_dev/doc/models/sdhci.md) or have a look at my bachelor thesis uploaded in this repository.
 
 ---
 ## About me
