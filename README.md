@@ -4,8 +4,8 @@ This model of an SDHCI controller is an extension for the Virtual Component Mode
 by Jan Henrik Weinstock. It has been merged into the [VCML](https://github.com/janweinstock/vcml) in January 2020.
 
 You can find the code of the SDHCI model here:  
-[sdhci.h](https://github.com/janweinstock/vcml/tree/master/include/vcml/models/generic/sdhci.h)  
-[sdhci.cpp](https://github.com/janweinstock/vcml/tree/master/src/vcml/models/generic/sdhci.cpp)  
+[sdhci.h](https://github.com/janweinstock/vcml/tree/master/include/vcml/models/sd/sdhci.h)  
+[sdhci.cpp](https://github.com/janweinstock/vcml/tree/master/src/vcml/models/sd/sdhci.cpp)  
 [test_sdhci.cpp](https://github.com/janweinstock/vcml/tree/master/test/models/sdhci.cpp)
 
 ---
